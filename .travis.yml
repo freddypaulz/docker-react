@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+   - docker
+
+before-install:
+   - docker build -t freddypaulz/docker-react -f Dockerfile.dev .
+
+script:
+   - docker run freddypaulz/docker-react npm run test -- --coverage
