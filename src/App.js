@@ -14,7 +14,7 @@ function App() {
                target='_blank'
                rel='noopener noreferrer'
             >
-               CLICK TO START
+               Feature branch
             </a>
          </header>
       </div>
